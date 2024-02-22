@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="dhadkan_2407710.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="search-box">
+                <input
+                    type="text"
+                    placeholder="Search"
+                    spellcheck="false"
+                    class="search-box"
+                    name="q"
+                />
+                <button type="submit" class="search-button">
+
+                    <img
+                        src="//cdn3.iconfinder.com/data/icons/feather-5/24/search-512.png"
+                        width="60px"
+                    />
+                </button>
+            </div>
+            <button type="submit" class="past-button">past</button>
+        
+        </nav>
+    </header>
+   >
+    <div class="container">
+        
+        <div class="discription">
+            <p class="weather-discription"></p>
+        </div>
+        <div class="weather">
+            <div class="icons"></div>
+
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">kathmandu</h2>
+            <div class="icons">
+                <div class="icons"></div>
+            </div>
+
+            <div class="time">
+                <p class="display-time"></p>
+            </div>
+
+            <div class="details">
+                <div class="col">
+                    <img
+                        src="//pic.onlinewebfonts.com/thumbnails/icons_278836.svg"
+                    />
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img
+                        src="//pic.onlinewebfonts.com/thumbnails/icons_541381.svg"
+                    />
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>wind speed</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img
+                        src="//pic.onlinewebfonts.com/thumbnails/icons_260357.svg"
+                    />
+                    <div>
+                        <p class="pressure">100ph</p>
+                        <p>pressure</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="past-data">
+        <button class="return-button">GO Back</button>
+        <div class="pasthistory">
+            <ul class="weather-list">
+                <!-- Content for past history goes here -->
+            </ul>
+        </div>
+    </div>
+    <button class="error">back</button>
+    <footer class="foot">
+        <p>© DhadkanKC id:2407710 fetched from openweathermap</p>
+    </footer>
+    <script src="dhadkan_2407710.js"></script>
+</body>
+</html>
